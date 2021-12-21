@@ -39,6 +39,8 @@
   flex-wrap: wrap;
   align-content: flex-start;
   max-width: 600px;
+  height: 100%;
+  background: #dceaf4;
 }
 
 .content {
@@ -46,6 +48,7 @@
   border: none;
   flex-direction: row;
   position: relative;
+  height: 100%;
 }
 
 .column {

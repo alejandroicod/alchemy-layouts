@@ -46,6 +46,8 @@
   border: none;
   flex-direction: row;
   position: relative;
+  background: #dceaf4;
+  height: 100%;
 }
 
 .column {
