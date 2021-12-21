@@ -30,11 +30,12 @@
   flex: 1;
   background: #dceaf4;
   display: none;
-  padding: 0 !important;
+  padding: 16px 8px !important;
   text-align: center;
+  justify-content: center;
 }
 
-.column:not(:last-child) {
+.column:not(.last) {
   margin-right: 16px;
 }
 
