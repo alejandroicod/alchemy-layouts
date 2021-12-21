@@ -38,6 +38,7 @@
   display: block;
   flex-wrap: wrap;
   align-content: flex-start;
+  max-width: 600px;
 }
 
 .content {
@@ -324,7 +325,7 @@ h5 {
 
 @media (min-width: 992px) {
   .body {
-    max-width: 848px;
+    max-width: 800px;
   }
   .summary {
     width: 176px !important;
