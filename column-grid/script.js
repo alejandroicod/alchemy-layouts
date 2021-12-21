@@ -1,7 +1,8 @@
 
 function updateSize() {
   $(".main .column").each(function () {
-    $(this).text(Math.round($(this).width() * 10) / 10 + "px");
+    let width = Math.round($(this).width() * 10) / 10;
+    $(this).text(width + "px");
     $('.main .column').removeClass("last");
     $('.main .column:visible:last').addClass("last");
   });

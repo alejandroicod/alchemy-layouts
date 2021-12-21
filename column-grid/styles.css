@@ -35,6 +35,10 @@
   justify-content: center;
 }
 
+.min {
+  margin-right: 8px;
+}
+
 .column:not(.last) {
   margin-right: 16px;
 }
@@ -368,5 +372,8 @@ h3 {
 
   .xxl {
     display: inline;
+  }
+  .show-xxl {
+    display: flex !important;
   }
 }
