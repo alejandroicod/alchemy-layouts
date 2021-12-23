@@ -30,7 +30,7 @@
   flex: 1;
   background: #dceaf4;
   display: none;
-  padding: 16px 8px !important;
+  padding: 16px 0 !important;
   text-align: center;
   justify-content: center;
 }
